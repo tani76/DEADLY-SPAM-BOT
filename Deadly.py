@@ -961,7 +961,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😬𝗟𝗜𝗡𝗚!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"🇵 🇴 🇳 🇬!\n`{ms}` 𝗺𝘀")
 
 
 
@@ -1080,13 +1080,12 @@ async def help(e):
     
         
 text = """
-
-💥💥💥 RDX SPAMMER BOT OP 💥💥💥
-💥💥💥💥💥💥 RDX OP 💥💥💥💥💥💥"""
+😍😍😍 DEADLY SPAMMER BOT OP 😈😈😈😈
+❤️❤️❤️❤️❤️ DEADLY OP ☠️☠️☠️☠️☠️"""
 
 print(text)
 print("")
-print("SMEX! RDX MULTI SPAM BOT STARTED SUCCESFULLY.")
+print("CONGRATULATIONS! 🥳🥳🍾🎉..UR SPAM BOT IS READY..NOW ENJOY 🥳🥳.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
